@@ -2,7 +2,7 @@
 //  RxSwift_SampleUITests.swift
 //  RxSwift_SampleUITests
 //
-//  Created by 太田修平 on 2022/03/09.
+//  Created by Shuhei Otaon 2022/03/09.
 //
 
 import XCTest
