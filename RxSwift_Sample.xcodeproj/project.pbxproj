@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0571563127E0AB17003BC0F2 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0571563027E0AB17003BC0F2 /* TodoTableViewCell.swift */; };
 		058D9B1127D8D26900EB056F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D9B1027D8D26900EB056F /* HomeViewController.swift */; };
 		058D9B1427D8D2D500EB056F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D9B1327D8D2D500EB056F /* HomeViewModel.swift */; };
+		058D9B1827DD9FD000EB056F /* TodoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D9B1727DD9FD000EB056F /* TodoHomeViewController.swift */; };
+		058D9B1A27DD9FE500EB056F /* TodoHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D9B1927DD9FE500EB056F /* TodoHomeViewModel.swift */; };
 		05B7F23827D7A9D700FA5307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7F23727D7A9D700FA5307 /* AppDelegate.swift */; };
 		05B7F23A27D7A9D700FA5307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7F23927D7A9D700FA5307 /* SceneDelegate.swift */; };
 		05B7F24127D7A9D900FA5307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B7F24027D7A9D900FA5307 /* Assets.xcassets */; };
@@ -16,6 +19,7 @@
 		05B7F24F27D7A9DA00FA5307 /* RxSwift_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7F24E27D7A9DA00FA5307 /* RxSwift_SampleTests.swift */; };
 		05B7F25927D7A9DA00FA5307 /* RxSwift_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7F25827D7A9DA00FA5307 /* RxSwift_SampleUITests.swift */; };
 		05B7F25B27D7A9DA00FA5307 /* RxSwift_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B7F25A27D7A9DA00FA5307 /* RxSwift_SampleUITestsLaunchTests.swift */; };
+		05D485DC27EBEB5100695B2B /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D485DB27EBEB5100695B2B /* TodoModel.swift */; };
 		D0B21896BCDEE8D7896EDF7E /* Pods_RxSwift_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A0380976EC7172B4F8CC16 /* Pods_RxSwift_Sample.framework */; };
 		D9F21F909102D4DE1E664F31 /* Pods_RxSwift_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737DD949483FFDA57FB03352 /* Pods_RxSwift_SampleTests.framework */; };
 		F79B34619B0D20627D967125 /* Pods_RxSwift_Sample_RxSwift_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4DC3FE5363AC7103C53D0 /* Pods_RxSwift_Sample_RxSwift_SampleUITests.framework */; };
@@ -39,8 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0571563027E0AB17003BC0F2 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		058D9B1027D8D26900EB056F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		058D9B1327D8D2D500EB056F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		058D9B1727DD9FD000EB056F /* TodoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoHomeViewController.swift; sourceTree = "<group>"; };
+		058D9B1927DD9FE500EB056F /* TodoHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoHomeViewModel.swift; sourceTree = "<group>"; };
 		05B7F23427D7A9D700FA5307 /* RxSwift_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B7F23727D7A9D700FA5307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05B7F23927D7A9D700FA5307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		05B7F25427D7A9DA00FA5307 /* RxSwift_SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwift_SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B7F25827D7A9DA00FA5307 /* RxSwift_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_SampleUITests.swift; sourceTree = "<group>"; };
 		05B7F25A27D7A9DA00FA5307 /* RxSwift_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05D485DB27EBEB5100695B2B /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		33D73760BBFDAAE0E3E0FFBD /* Pods-RxSwift_Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Sample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_Sample/Pods-RxSwift_Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		63C46EE01436863ACCC66709 /* Pods-RxSwift_Sample-RxSwift_SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Sample-RxSwift_SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_Sample-RxSwift_SampleUITests/Pods-RxSwift_Sample-RxSwift_SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		68A0380976EC7172B4F8CC16 /* Pods_RxSwift_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,10 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0571562F27E0AAE7003BC0F2 /* TodoCell */ = {
+			isa = PBXGroup;
+			children = (
+				0571563027E0AB17003BC0F2 /* TodoTableViewCell.swift */,
+			);
+			path = TodoCell;
+			sourceTree = "<group>";
+		};
 		058D9B0E27D8D22100EB056F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				058D9B1027D8D26900EB056F /* HomeViewController.swift */,
+				0571562F27E0AAE7003BC0F2 /* TodoCell */,
+				058D9B1627DD9FA500EB056F /* TodoHome */,
+				058D9B1527DD8B7200EB056F /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,16 +120,27 @@
 		058D9B0F27D8D24500EB056F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				05D485DB27EBEB5100695B2B /* TodoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		058D9B1227D8D2A000EB056F /* ViewModel */ = {
+		058D9B1527DD8B7200EB056F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				058D9B1027D8D26900EB056F /* HomeViewController.swift */,
 				058D9B1327D8D2D500EB056F /* HomeViewModel.swift */,
 			);
-			path = ViewModel;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		058D9B1627DD9FA500EB056F /* TodoHome */ = {
+			isa = PBXGroup;
+			children = (
+				058D9B1727DD9FD000EB056F /* TodoHomeViewController.swift */,
+				058D9B1927DD9FE500EB056F /* TodoHomeViewModel.swift */,
+			);
+			path = TodoHome;
 			sourceTree = "<group>";
 		};
 		05B7F22B27D7A9D700FA5307 = {
@@ -140,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				058D9B0F27D8D24500EB056F /* Model */,
-				058D9B1227D8D2A000EB056F /* ViewModel */,
 				058D9B0E27D8D22100EB056F /* View */,
 				05B7F23727D7A9D700FA5307 /* AppDelegate.swift */,
 				05B7F23927D7A9D700FA5307 /* SceneDelegate.swift */,
@@ -447,8 +475,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0571563127E0AB17003BC0F2 /* TodoTableViewCell.swift in Sources */,
+				05D485DC27EBEB5100695B2B /* TodoModel.swift in Sources */,
 				05B7F23827D7A9D700FA5307 /* AppDelegate.swift in Sources */,
 				05B7F23A27D7A9D700FA5307 /* SceneDelegate.swift in Sources */,
+				058D9B1827DD9FD000EB056F /* TodoHomeViewController.swift in Sources */,
+				058D9B1A27DD9FE500EB056F /* TodoHomeViewModel.swift in Sources */,
 				058D9B1427D8D2D500EB056F /* HomeViewModel.swift in Sources */,
 				058D9B1127D8D26900EB056F /* HomeViewController.swift in Sources */,
 			);
